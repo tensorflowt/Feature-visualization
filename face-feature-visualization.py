@@ -325,4 +325,6 @@ with tf.Session() as sess:
     # 查看 叠加后的 特征图
     visualize_feature_map_sum(conv5)
 
-
+###说明
+#1.注意输入图像的通道数需要为3，灰度图需要转为RGB
+#2.288行需要根据输入图像的shape做调整
